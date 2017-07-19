@@ -18,7 +18,7 @@ class fifthCest
      //$I->see('Pesquisar');
      //$I->fillField(' .horus__querytext ', 'London');
      //$I->click(' .horus-btn-search__label ');
-     //$I->click(' .btn-horus--checkin ');
-     //$I->see('QUI');
+     //$I->click(' .fl-slider__slide-holder, .fl-slider__handle js_slider_handle');
+     $I->see('QUI');
     }
 }

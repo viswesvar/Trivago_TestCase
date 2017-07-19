@@ -15,10 +15,10 @@ class SecondCest
     public function tryToTest(AcceptanceTester $I)
     {
     $I->amOnPage('/login#/sign-up');
-    //$I->fillField('input.js_tlgEmail[id=\'emailRegister\']', 'vsekar2@pentaho.com');
-    //$I->fillField('input[id=\'register-pass\']', 'password');
-    //$I->click('.js_tlgSignupSubmit');
-    //$I->see('Obrigado por iniciar sessão!');
+    $I->fillField('input.js_tlgEmail[id=\'emailRegister\']', 'vsekar2@pentaho.com');
+    $I->fillField('input[id=\'register-pass\']', 'password');
+    $I->click('.js_tlgSignupSubmit');
+    $I->see('Obrigado por iniciar sessão!');
     //$I->fillField(' .horus__querytext ', 'Lisbon');
     //$I->click(' .horus-btn-search__label ');
     //$I->see(' .item__image--has-gallery ');

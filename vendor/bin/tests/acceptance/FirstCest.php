@@ -18,8 +18,8 @@ class FirstCest
      //$I->see('Pesquisar');
      //$I->fillField(' .horus__querytext ', 'London');
      //$I->click(' .horus-btn-search__label ');
-     //$I->click(' .btn-horus--checkin ');
-     //$I->see('SEG');
+     $I->click(' .btn-horus--checkin ');
+     $I->see('SEG');
     }
 }
 
